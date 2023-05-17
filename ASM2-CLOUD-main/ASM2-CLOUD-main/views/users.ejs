@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style1.css' />
+    <meta http-equiv="refresh" content="30">
+  </head>
+  <style>.center {
+    margin-left: auto;
+    margin-right: auto;
+    height:30vh;
+  }.align_all{
+        text-align: center;
+      }
+  </style>
+  <body>
+    <div class="align_all">
+    <h1><%= title %></h1>
+    <p>Welcome to <%= name %></p>
+    <p> <%-table_string%></p>
+    <a href="/logout"><input type="button" value="Logout"></a>
+  </div>
+  </body>
+</html>

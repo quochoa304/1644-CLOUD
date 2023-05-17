@@ -1,0 +1,21 @@
+/* body{
+    line-height: 1.5;
+    width: 100%;
+    min-width: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  } */
+
+  body{
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
